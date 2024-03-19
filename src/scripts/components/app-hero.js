@@ -6,9 +6,13 @@ class AppHero extends HTMLElement {
   render() {
     this.innerHTML = `
     <div class="hero">
+      <img src="../hero-1.jpg"
+          alt="Gambar macam-macam makanan yang diterapkan di komponen hero">
       <div class="inner">
-        <h1 class="title">Forklore</h1>
-        <p class="subtitle">Petualangan Rasa, Dimulai Dari Sini!</p>
+          <h1 class="title">Resto Finder</h1>
+          <p class="subtitle">
+              Find the best Restaurant in your area
+          </p>
       </div>
     </div>
     `;
